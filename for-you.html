@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy repeat year 😊</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cooper+Black" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="love-icon">&#10084;</div>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="https://www.instagram.com/star4high/">Instagram</a></li>
+            <li><a href="#">Coming Soon</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="stars.png" id="stars">
+        <img src="pantai.jpg" id="pantai">
+        <h2 style="font-family: 'Cooper Black', sans-serif;" id="text">Happy Birthday</h2>
+        <h2 style="font-family: 'Cooper Black', sans-serif;" id="text1">My Girl</h2>
+        <a href="#sec" id="btn">klik aja :)</a>
+        <img src="foto.png" id="foto">
+        <img src="foto1.png" id="foto1">
+    </section>
+    <div class="sec" id="sec">
+        <h2>Hi :))</h2>
+        <p>ummmm ._. disini aku cuman mau ngucapin, selamat ulang tahun sayangkuhh :)<br><br>Happy Birthday, Feliz Cumpleaños, Joyeux Anniversaire, Alles Gute zum Geburtstag, Buon Compleanno, Feliz Aniversário, Gefeliciteerd met je verjaardag, Grattis på födelsedagen, Gratulerer med dagen, Tillykke med fødselsdagen, Hyvää syntymäpäivää, Χαρούμενα Γενέθλια (Harúmena Genéthlia), Doğum Günün Kutlu Olsun, С Днем Рождения (S Dnyem Rozhdyeniya), 生日快乐 (Shēngrì Kuàilè), お誕生日おめでとう (Otanjōbi Omedetō), 생일 축하해요 (Saeng-il Chukha-haeyo), عيد ميلاد سعيد (Eid Milad Saeed), יום הולדת שמח (Yom Huledet Sameach), जन्मदिन मुबारक हो (Janmadin Mubarak Ho), Furaha ya Kuzaliwa, Selamat Ulang Tahun, Selamat Hari Jadi, Happy repeat year, Chúc mừng sinh nhật,  สุขสันต์วันเกิด (S̄uk̄hs̄ạnt̒ wạn keid), Wszystkiego najlepszego, Boldog születésnapot,  Všechno nejlepší k narozeninám, 생일 축하합니다 (Saeng-il Chukha Hamnida), З Днем Народження (Z Dnem Narodzhennya), La mulți ani, Ευτυχισμένα γενέθλια (Efthichisména genéthlia), பிறந்தநாள் வாழ்த்துக்கள் (Piṟantanāḷ Vāḻttukkaḷ), Til hamingju með afmælið, Срећан рођендан (Srećan rođendan), Честит Рожден ден (Chestit Rozhden den), Priecīgus dzimšanas dienu, Su gimtadieniu, Palju õnne sünnipäevaks, Všetko najlepšie k narodeninám, Vse najboljše, Sretan rođendan, Sretan rođendan, Gëzuar Ditëlindjen,  Среќен роденден (Srećen rođendan),  გილოცავთ დაბადების დღეს (Gilotsavt dabadebis dghe's),  Ծնունդդ շնորհավոր (Tsʿnundd shnorhavur), Ad günün mübarək, Туған күніңмен (Tuǵan kūnimen), Tug'ilgan kun bilan, Таваллудат муборак (Tavalludat muborak), Туулган күнүң менен (Tuulǵan künüŋ menen), Doglan günüň bilen,  La mulți ani, З Днем Нараджэння (Z Dniom Naradžennia),  Su gimtadieniu, Priecīgus dzimšanas dienu, Palju õnne sünnipäevaks, Ծնունդդ շնորհավոր (Tsʿnundd shnorhavur), გილოცავთ დაბადების დღეს (Gilotsavt dabadebis dghe's),  سالگرہ مبارک ہو (Salgirah Mubarak Ho)<br><br>hehe 😅, oh iya diterima ya hadiah dari aku, dimakan, dipake alat tulisnya, lucu kan pulpennya mixue :), and btw gantungan yang itu aku ada dua, jadi satunya aku kasih ke kamu (we couple) :D<br><br> aku juga bikin ini sekaligus buat belajar juga gitu, and pengen ngasih sesuatu yang berbeda dari yang lain :D. Orang lain biasanya kan surat biasa dari kertas, jadi pengen sedikit lebih unik gituhhhh :))))))) <br><br>udah sih itu aja,gk tau mau bilang apa lagi. sehat selalu yaaaaaaaaaaaaa <br><br>oh iya dan juga maaf kalo aku cuman mengatakan hal itu karena aku juga bingung ngasih kata kata apa 😅 because i'm introvert ._. </p>
+    </div>
+
+    <script>
+        let stars = document.getElementById('stars')
+        let moon = document.getElementById('moon')
+        let mountains_behind = document.getElementById('mountains_behind')
+        let text = document.getElementById('text')
+        let btn = document.getElementById('btn')
+        let mountains_front = document.getElementById('mountains_front')
+        let header = document.querySelector('header');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            pantai.style.top = value * 0.5 + 'px';
+            foto.style.left = value * -2 + 'px';
+            foto1.style.left = value + 15 + 'px';
+            text.style.bottom = value * 2 + 'px';
+            text1.style.bottom = value * 2 + 'px';
+            btn.style.marginTop = value * 1.5 + 'px';
+            header.style.top = value * 0.5 + 'px';
+        })
+    </script>
+
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <div class="logo">
+                <img src="foto2.png" id="foto2">
+            </div>
+            <p>
+               p      bikinan orang ganteng 😎                
+            </p>
+            <div class="sosials">
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-facebook-line"></i></a>
+            </div>
+        </div>
+        <div class="colummn">
+            <h4 id="pertama"">Aku :D</h4>
+            <p id="gaya">
+                Anak RPL abisssssssss
+            </p>
+        </div>
+        <div class="colummn">
+            <h4 id="kedua">About Me</h4>
+            <a href="https://www.instagram.com/rfq_k11/">Instagram</a>
+            <a href="https://web.facebook.com/rifki.kamaluddin.1">Facebook</a>
+            <a href="wa.html">WhatsApp</a>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
